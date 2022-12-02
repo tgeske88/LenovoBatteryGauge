@@ -1,0 +1,32 @@
+There are 3 methods to install this patch. Either one is OK. It is recommended "Method-1".
+
+=============================================
+Method-1 (recommended):
+1, run "FixBatteryGauge.exe" as administrator.
+	--right click "FixBatteryGauge.exe" --> select "Run as administrator" --> then wait 3 minutes to completely.
+	or 
+	--double click "FixBatteryGauge.exe" --> select "Yes" at pop up UAC window --> then wait 3 minutes to completely.
+	
+2, please feedback "BGT.zip" to me.
+
+
+
+=============================================
+Method-2:
+1, run "BGTest.bat" as administrator.
+	--right click "BGTest.bat" --> select "Run as administrator" --> then wait 3 minutes to completely.
+
+2, please feedback "BGT.zip" to me.
+
+
+
+=============================================
+Method-3 (not recommended):
+1, run "PowerShell" as administrator.
+	--search "PowerShell" in OS start menu 
+	--> select "Run as administrator"
+	--> change directory to the the folder you extract the attachment (i.e. The full path of BGTest)
+	--> run this command in PowerShell: powershell -executionpolicy bypass -file BGT.ps1
+	--> then wait 3 minutes to completely.
+	
+2, please feedback "BGT.zip" to me.
